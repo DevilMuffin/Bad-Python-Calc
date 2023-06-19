@@ -6,7 +6,7 @@ while mathThing != "+" or "-" or "*" or "/":
     numCount = int(input('Enter the amount of numbers you are going to use:\n'))
     if numCount == 1:
         print("please use more than 1 number")
-        break
+        continue
     elif numCount == 2:
         num1 = int(input('Enter a number:\n'))
         num2 = int(input('Enter a second number:\n'))
